@@ -16,12 +16,15 @@ DHT dht(DHTPIN,DHTTYPE);
 
 
 const char* ssid = "WiFi";
-const char* password = "boss1234";
+const char* password = "-------";
 
 float t = 0.0;
 float h = 0.0;
 float a = 0.0;
 float b = 0.0;
+
+
+// Voltage measurement
 
 const float espVCC = 3.11;
 unsigned long R1 = 7500;
